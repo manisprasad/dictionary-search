@@ -1,0 +1,54 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Poppins:wght@600&display=swap');
+@viewport {
+    width: device-width;
+    height: device-height;
+    viewport-fit: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: poppins;
+    color: white;
+    background-color: black;
+    /* background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1); */
+  
+}
+
+.each-meaning{
+    width: 98%;
+    padding: 10px;
+    color: rgb(49, 49, 49);
+    margin: 5px 0;
+    background-color: #898282;
+    word-wrap: break-word;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 2px 2px 3px white;
+  }
+
+  .each-meaning:hover {
+    background-color: #e0e0e0;
+  }
+       
+  .word-not-found{
+    width: max-content;
+    margin: auto;
+    margin-top: 12px;
+    padding: 9px;
+    border-radius: 5px;
+ 
+    color: rgb(238, 238, 238);
+    font-size: larger;
+  }
